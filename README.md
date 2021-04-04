@@ -6,7 +6,7 @@ Logcat を削除する
 
 `assumenosideeffects` を使用しても android.util.Log 自体は消えるが Logcat に出力するために文字列を生成するコードを書いている場合は生成するコードが残ってしまう。
 
-次の実装の *Random* / *fooNonNull.myNum* / *fooNullable.myNum* が該当する:
+次の実装の *Random* / *joinString* / *fooNonNull.myNum* / *fooNullable.myNum* が該当する:
 
 ```kotlin
 private data class Foo(val myNum: Int)
